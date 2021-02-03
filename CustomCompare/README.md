@@ -1,6 +1,6 @@
 ## Explanation
 
-This is one way around of a problem from Stackoverflow 
+This is one way around of a problem from Stackoverflow   
 Details Problem: https://stackoverflow.com/questions/66009654/sorting-string-array-by-employee-id-number/66010738#66010738
 
 Input File Format(Database.txt):
