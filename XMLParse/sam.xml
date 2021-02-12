@@ -1,0 +1,10 @@
+<Table name="Sam">
+    <Row id="374058">
+       <Col name="ID">374058</Col>
+       <Col name="TYPE">mob</Col>
+    </Row>
+    <Row id="374059">
+       <Col name="ID">374059</Col>
+       <Col name="TYPE">ff</Col>
+    </Row>
+</Table>
