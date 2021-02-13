@@ -21,7 +21,7 @@ public class FilterString {
 			//int index = 0;
 			//for(String s : strParsed) System.out.print(index++ +":"+ s +" ");
 			//System.out.println();
-			//after parsing 0:A 1:1000 2:B 3:2 4:C 5:3 
+			//after parsing 0: 1:1000 2:2 3:3 
 			
 			Integer data = Integer.parseInt(strParsed[1]);
 			//System.out.println(data);
