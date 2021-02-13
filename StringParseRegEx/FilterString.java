@@ -16,7 +16,7 @@ public class FilterString {
 		List<Integer> parsedData = new ArrayList();
 		
 		for(String str: originalList) {
-			String[] strParsed = str.split("[=,]");
+			String[] strParsed = str.split("[A-Z=,]+");
 			//for debugging
 			//int index = 0;
 			//for(String s : strParsed) System.out.print(index++ +":"+ s +" ");
