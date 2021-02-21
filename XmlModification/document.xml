@@ -1,0 +1,36 @@
+<Document>
+        <Identifier>DOC1</Identifier>
+        <Type>HYPER SHIPPING SDN BHD</Type>
+        <Description>HYPER SHIPPING SDN BHD</Description>
+        <Confidence>33.12</Confidence>
+        <ConfidenceThreshold>10.0</ConfidenceThreshold>
+        <Valid>true</Valid>
+        <Reviewed>true</Reviewed>
+        <ReviewedBy>SYSTEM</ReviewedBy>
+        <ValidatedBy>SYSTEM</ValidatedBy>
+        <ErrorMessage/>
+        <Value>HYPER SHIPPING'SDN BHD_First_Page</Value>
+        <DocumentDisplayInfo/>
+        <DocumentLevelFields/>
+        <Pages>
+            <Page>
+                <Identifier>PG0</Identifier>
+                <OldFileName>HYPER-KL FEB-0001-0001.tif</OldFileName>
+                <NewFileName>BI2E7_0.tif</NewFileName>
+                <SourceFileID>1</SourceFileID>
+                <PageLevelFields>
+                    <PageLevelField>
+                        <Name>Search_Engine_Classification</Name>
+                        <Value>Park Street '10 road</Value> 
+                        <Type/>
+                        <Confidence>66.23</Confidence>
+                        <LearnedFileName>HYPER KL-JUN-0001.tif</LearnedFileName>
+                        <OcrConfidenceThreshold>0.0</OcrConfidenceThreshold>
+                        <OcrConfidence>0.0</OcrConfidence>
+                        <FieldOrderNumber>0</FieldOrderNumber>
+                        <ForceReview>false</ForceReview>
+                    </PageLevelField>
+                </PageLevelFields>
+            </Page>
+        </Pages>
+</Document>
