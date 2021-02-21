@@ -13,7 +13,7 @@ public class XmlModificationDom {
 
 	public static void main(String[] args) {
 		XmlModificationDom XmlModificationDom = new XmlModificationDom();
-		XmlModificationDom.xmlToObj();
+		XmlModificationDom.updateXmlAndSave();
 	}
 	
 	public void updateXmlAndSave() {
