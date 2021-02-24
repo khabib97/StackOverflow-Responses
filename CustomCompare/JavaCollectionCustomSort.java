@@ -8,6 +8,23 @@ public class JavaCollectionCustomSort {
 
 	public static void main(String[] args) {
 		fileDbCustomSort();
+		
+		/* sort double type data
+		List<DevStudent> devList = new ArrayList<DevStudent>();
+		devList.add(new DevStudent("adib",0.5));
+		devList.add(new DevStudent("vdib",1));
+		devList.add(new DevStudent("mdib",4));
+
+
+		Collections.sort(devList, new Comparator<DevStudent>() {
+			@Override
+		    public int compare(DevStudent c1, DevStudent c2) {
+			return Double.compare(c2.rating, c1.rating);
+		    }
+			});
+
+		System.out.println(devList.get(0).name);
+		*/
 	}
 
 	@SuppressWarnings("unchecked")
@@ -50,6 +67,17 @@ public class JavaCollectionCustomSort {
 	}
 
 }
+//compare double type
+class DevStudent{
+	String name;
+    double rating;
+    
+    public DevStudent(String name,double rating){
+    	this.name = name;
+    	this.rating = rating;
+    }	
+}
+
 
 class Data implements Comparable{
 	int val;// 1
