@@ -13,6 +13,7 @@ public class MemoryChecker {
         List<Load> list = new ArrayList<Load>();
         for (int i = 0; i <= 1500000
                 ; i++) {
+            //for primitive long type : list.add(new Load("Jim", "Knopf", 11));
             list.add(new Load("Jim", "Knopf", 11L));
         }
         // Get the Java runtime
@@ -27,6 +28,7 @@ public class MemoryChecker {
 }
 
 class Load {
+    //for primitive long type: public Load(String name, String title, long id)	
     public Load(String name, String title, Long id) {
     	this.name = name;
     	this.title = title;
@@ -34,5 +36,6 @@ class Load {
 	}
 	String name;
     String title;
+    //for primitive long type:	long id
     Long id;
 }
